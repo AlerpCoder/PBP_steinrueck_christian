@@ -1,0 +1,5 @@
+Shopping Bag,13,0
+Afri Cola,101,141
+Club Mate,101,314
+Paulaner Spezi,101,-1
+Paulaner Spezi,101,100
