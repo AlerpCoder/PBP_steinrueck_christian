@@ -2,12 +2,27 @@ package items;
 
 import exceptions.NewException;
 
+/**
+ * A class for handling the items in the itemLines
+ *
+ * @author Christian Steinrück
+ * @version 1.0.0
+ */
 public class Item {
     private int categoryId;
     private String name;
     private int price;
     private int line;
 
+    /**
+     * This constructor creates an Item object and throws exception if the input variable are wrong
+     *
+     * @param categoryId the id from the itemLines text file, should be positive
+     * @param name       the name of the item, should not be empty and should only contains alphabetic characters or spaces
+     * @param price      the price of the item, should not be negative
+     * @param line       shows the line in the text file
+     * @throws NewException will be thrown if the above called bugs are pop up
+     */
     public Item(int categoryId, String name, int price, int line) throws NewException {
         if (categoryId < 0) {
             throw new NewException("ID", line, "id should not be negative");

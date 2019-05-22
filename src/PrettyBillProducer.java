@@ -7,7 +7,6 @@ import commons.PrettyBillOperator;
 import java.util.ArrayList;
 import java.util.List;
 
-// This is the main PBP class. Start your implementation here.
 public class PrettyBillProducer {
 
     public void prettyPrintTabular(String itemsPath, String categoriesPath) {

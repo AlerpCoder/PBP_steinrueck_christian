@@ -54,7 +54,7 @@ public class testPrettyBillPrinter {
     @DisplayName("Test with double category")
     public void testWithDoubleCategory() {
         NewException exception = assertThrows(NewException.class, () -> helperMethod("testProjectBriefCategoriesII.txt", "projectBriefItems.txt"));
-        assertEquals("Invalid Category entry on line 3, because no duplicates are not allowed", exception.getMessage());
+        assertEquals("Invalid Category entry on line 3, because no duplicates are allowed", exception.getMessage());
     }
 
     @Test

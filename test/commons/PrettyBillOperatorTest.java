@@ -69,18 +69,15 @@ class PrettyBillOperatorTest {
                         .collect(Collectors.toList()));
     }
 
+
+    //Todo fix the test
     @Test
     @DisplayName("Check if no Duplicates exist")
-    void checkIfDuplicatesExist() {
+    void checkIfDuplicatesExist() throws NewException {
         PrettyBillOperator prettyBillOperator = new PrettyBillOperator(dummyCategoryLines, dummyItemsLines);
         boolean result = true;
-        try {
-            ArrayList<ItemCategory> list = prettyBillOperator.createItemCategoryList();
-            result = prettyBillOperator.checkIfDuplicatesExist(list);
-        } catch (NewException e) {
-            e.printStackTrace();
-        }
-        assertTrue(result);
+        ArrayList<ItemCategory> list = prettyBillOperator.createItemCategoryList();
+        prettyBillOperator.checkIfDuplicatesExist(list);
     }
 
     @Test
@@ -95,7 +92,7 @@ class PrettyBillOperatorTest {
         PrettyBillOperator prettyBillOperator = new PrettyBillOperator(doubleItemList, doubleItemList);
         ArrayList<ItemCategory> list = prettyBillOperator.createItemCategoryList();
         NewException exception = assertThrows(NewException.class, () -> prettyBillOperator.checkIfDuplicatesExist(list));
-        assertEquals("Invalid Category entry on line 3, because no duplicates are not allowed", exception.getMessage());
+        assertEquals("Invalid Category entry on line 3, because no duplicates are allowed", exception.getMessage());
 
     }
 

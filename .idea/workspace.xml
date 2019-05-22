@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22245cb8-3a91-42e4-b1e9-8e022f1b5ebc" name="Default Changelist" comment="" />
+    <list default="true" id="22245cb8-3a91-42e4-b1e9-8e022f1b5ebc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/PrettyBillOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/PrettyBillOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/PrettyBillPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commons/PrettyBillPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/NewException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/NewException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/items/ItemCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/items/ItemCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,32 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrettyBillProducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrettyBillProducer.java">
+      <file leaf-file-name="PrettyBillOperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="196">
+              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
+                <element signature="e#2267#2268#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectBriefItems.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectBriefItems.txt">
+      <file leaf-file-name="PrettyBillOperatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testPrettyBillPrinter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testPrettyBillPrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="-2">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +74,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>system.</find>
-      <find>assertThrows</find>
       <find>createItemCa</find>
       <find />
       <find>Throws</find>
@@ -71,14 +81,18 @@
       <find>reduce</find>
       <find>sort(</find>
       <find>category</find>
-      <find />
-      <find />
       <find>duplicates</find>
-      <find />
       <find>item&quot;</find>
+      <find>lastName_firstName</find>
+      <find>no duplicates are not allowed</find>
+      <find>try</find>
+      <find>assert</find>
+      <find>assertThrow</find>
+      <find>assertThrows</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>no duplicates are allowed</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,12 +114,9 @@
         <option value="$PROJECT_DIR$/test/items/ItemTEst.java" />
         <option value="$PROJECT_DIR$/test/items/ItemTest.java" />
         <option value="$PROJECT_DIR$/test/commons/SimpleFileReader.java" />
-        <option value="$PROJECT_DIR$/src/commons/PrettyBillPrinter.java" />
         <option value="$PROJECT_DIR$/testProjectBriefCategoriesII.txt" />
         <option value="$PROJECT_DIR$/testProjectBriefCategoriesIII.txt" />
         <option value="$PROJECT_DIR$/testProjectBriefCategories.txt" />
-        <option value="$PROJECT_DIR$/src/exceptions/NewException.java" />
-        <option value="$PROJECT_DIR$/src/items/ItemCategory.java" />
         <option value="$PROJECT_DIR$/test/items/ItemCategoryTest.java" />
         <option value="$PROJECT_DIR$/TestprojectBriefItemsII.txt" />
         <option value="$PROJECT_DIR$/src/PrettyBillProducer.java" />
@@ -113,11 +124,15 @@
         <option value="$PROJECT_DIR$/projectBriefItems.txt" />
         <option value="$PROJECT_DIR$/TestprojectBriefItemsIII.txt" />
         <option value="$PROJECT_DIR$/testProjectBriefItemsIII.txt" />
-        <option value="$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java" />
-        <option value="$PROJECT_DIR$/src/items/Item.java" />
-        <option value="$PROJECT_DIR$/src/commons/PrettyBillOperator.java" />
         <option value="$PROJECT_DIR$/testProjectBriefItems.txt" />
         <option value="$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java" />
+        <option value="$PROJECT_DIR$/.project" />
+        <option value="$PROJECT_DIR$/src/commons/PrettyBillPrinter.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/NewException.java" />
+        <option value="$PROJECT_DIR$/src/commons/PrettyBillOperator.java" />
+        <option value="$PROJECT_DIR$/src/items/Item.java" />
+        <option value="$PROJECT_DIR$/src/items/ItemCategory.java" />
+        <option value="$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java" />
       </list>
     </option>
   </component>
@@ -140,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,10 +167,47 @@
               <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PBP_steinrueck_christian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PBP_steinrueck_christian" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -215,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in PBP_lastName_firstName">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PBP_steinrueck_christian" />
@@ -228,6 +278,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrettyBillOperatorTest.checkIfDuplicatesExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PBP_steinrueck_christian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="commons" />
+      <option name="MAIN_CLASS_NAME" value="commons.PrettyBillOperatorTest" />
+      <option name="METHOD_NAME" value="checkIfDuplicatesExist" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -283,43 +356,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="testPrettyBillPrinter.testWithNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PBP_steinrueck_christian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="commons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="commons" />
-      <option name="MAIN_CLASS_NAME" value="commons.testPrettyBillPrinter" />
-      <option name="METHOD_NAME" value="testWithNegativeNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <list>
       <item itemvalue="JUnit.All in PBP_lastName_firstName" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.testPrettyBillPrinter.testWithNegativeNumber" />
       <item itemvalue="JUnit.testPrettyBillPrinter.smokeTest" />
       <item itemvalue="JUnit.testPrettyBillPrinter.testForNotExistingCategory" />
+      <item itemvalue="JUnit.PrettyBillOperatorTest.checkIfDuplicatesExist" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in PBP_lastName_firstName" />
+        <item itemvalue="JUnit.PrettyBillOperatorTest.checkIfDuplicatesExist" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.testPrettyBillPrinter.testForNotExistingCategory" />
         <item itemvalue="JUnit.testPrettyBillPrinter.smokeTest" />
-        <item itemvalue="JUnit.testPrettyBillPrinter.testWithNegativeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -339,17 +389,13 @@
       <workItem from="1557668776407" duration="4223000" />
       <workItem from="1557821357505" duration="3646000" />
       <workItem from="1557862813654" duration="6657000" />
-      <workItem from="1557869802060" duration="530000" />
+      <workItem from="1557869802060" duration="1553000" />
+      <workItem from="1558447933448" duration="774000" />
+      <workItem from="1558525156142" duration="6377000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_PBP_lastName_firstName - 2019.05.14 at 23h 24m 15s.xml">
-      <configuration name="All in PBP_lastName_firstName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_PBP_lastName_firstName - 2019.05.14 at 23h 24m 42s.xml">
-      <configuration name="All in PBP_lastName_firstName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_PBP_lastName_firstName - 2019.05.14 at 23h 24m 58s.xml">
       <configuration name="All in PBP_lastName_firstName" configurationId="JUnit" />
     </history-entry>
@@ -374,15 +420,32 @@
     <history-entry file="All_in_PBP_lastName_firstName - 2019.05.14 at 23h 28m 49s.xml">
       <configuration name="All in PBP_lastName_firstName" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrettyBillOperatorTest_checkIfDuplicatesExist - 2019.05.22 at 15h 35m 17s.xml">
+      <configuration name="PrettyBillOperatorTest.checkIfDuplicatesExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrettyBillOperatorTest_checkIfDuplicatesExist - 2019.05.22 at 15h 35m 37s.xml">
+      <configuration name="PrettyBillOperatorTest.checkIfDuplicatesExist" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76282000" />
+    <option name="totallyTimeSpent" value="84456000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="749" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3296" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -390,19 +453,19 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4992658" weight="0.43164364" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3296" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.4992658" visible="true" weight="0.4304" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3296" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3700608" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21808511" />
       <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.44700462" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -410,7 +473,6 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Maven" order="4" />
@@ -465,23 +527,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NewException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectBriefCategories.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectBriefItems.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -599,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectBriefOutput.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -620,27 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/items/ItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="20" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/commons/SimpleFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -669,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="227" selection-start-line="227" selection-end-line="227" />
-          <folding>
-            <element signature="e#7966#7967#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/items/ItemCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testProjectBriefCategoriesIII.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -703,74 +714,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/items/ItemCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NewException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectBriefCategories.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrettyBillProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectBriefItems.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/items/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testProjectBriefItemsII.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -793,13 +738,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java">
+    <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBP_steinrueck_christian.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectBriefItems.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/NewException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/items/ItemCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrettyBillProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/items/ItemCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/commons/SimpleFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/commons/testPrettyBillPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commons/PrettyBillOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/commons/PrettyBillOperatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
         </state>
       </provider>
     </entry>
